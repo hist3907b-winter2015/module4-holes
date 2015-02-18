@@ -2,14 +2,14 @@
 
 There are *many* different tools and approaches you could use to visualize your data, both as a preliminary pass to spot the holes and also for more formal analysis. In which case, for this module, I would like you to select two of these exercises which seem most germane for your own research project. You are welcome to work through more of them, of course, but I want the exercises to move your own research forward.
 
-+ [Exercise 1](#exercise-1) Gephi & Texan Correspondence
++ [Exercise 1](#exercise-1) Network analysis and visualization & Texan Correspondence
 + [Exercise 2](#exercise-2) Topic Modeling Tool & CND
 + [Exercise 3](#exercise-3) Topic Modeling in R & CND
-+ [Exercise 4](#exercise-4) OverviewProject & CND
-+ [Exercise 5](#exercise-5) Simple mapping & georectifying
-+ [Exercise 6](#exercise-6) Corpus Linguistics with AntConc
++ [Exercise 4](#exercise-4) Text Analysis with OverviewProject & CND
++ [Exercise 5](#exercise-5) Corpus Linguistics with AntConc
++ [Exercise 6](#exercise-6) Text Analysis with Voyant
 + [Exercise 7](#exercise-7) Quick charts using RAW
-
++ [Exercise 8](#exercise-8) Simple mapping & georectifying
 
 ## Exercise 1
 
@@ -53,3 +53,13 @@ Once you're inside, click 'import from a CSV file', and upload the CND.csv (whic
 A new page appears, called 'YOUR DOCUMENT SETS'. Click on the one you just uploaded. A file folder tree showing documents of progressively greater similarity will open; on the right hand side will be the list of documents within each box (the box in question will be greyed out when you click on it, so you know where you are). You can search for words in your document, and Overview will tell you where they are; you can tag documents that you find interesting. The Overview system allows you to jump between a distant, macroscopic view and a close, document level view. Jump back and forth, see what you can find. For suggestions about how to use Overview effectively, try [their blog](http://overview.ap.org/). Make notes about what you observe in your notebook. Also, you can export your tagged document set from Overview, so that you could visualize the patterns of tagging in a spreadsheet (for instance). 
 
 ## exercise 5
+
+## exercise 6
+
+In module 3 if you recall, we worked through how to transform XML using stylesheets. Melodee Beals used a [stylesheet ](https://github.com/mhbeals/Colonial-Newspaper-Database/tree/master/Transformers) to transform her database into a series of individual txt files. In the exercises above, a transformer was used to make the database into a single CSV file. In this exercise, we are going to use [Voyant Tools](http://voyant-tools.org) to visualize patterns in word use in the database. Voyant can read either a CSV *or* text files. The advantage of uploading a folder of text files is that, if the files are in chronological order, Voyant's default visualizations will also be arranged in chronological order and thus we can see change over time.
+
+Go to [http://voyant-tools.org](http://voyant-tools.org). Paste the URL to the csv of the CND database:https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv . 
+
+Now, open a new browser window, and go here http://voyant-tools.org/?corpus=1423304472962.129&stopList=stop.en.taporware.txt
+
+Do you see the difference? In the latter window, the individual articles have been uploaded individually, and thus are treated as individual documents in chronological order.
