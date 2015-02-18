@@ -2,10 +2,13 @@
 
 There are *many* different tools and approaches you could use to visualize your data, both as a preliminary pass to spot the holes and also for more formal analysis. In which case, for this module, I would like you to select two of these exercises which seem most germane for your own research project. You are welcome to work through more of them, of course, but I want the exercises to move your own research forward.
 
-[Exercise 1](#exercise-1) Gephi & Texan Correspondence
-[Exercise 2](#exercise-2) Topic Modeling Tool & CND
-[Exercise 3](#exercise-3) Topic Modeling in R & CND
-[Exercise 4](#exercise-4) OverviewProject & CND
++ [Exercise 1](#exercise-1) Gephi & Texan Correspondence
++ [Exercise 2](#exercise-2) Topic Modeling Tool & CND
++ [Exercise 3](#exercise-3) Topic Modeling in R & CND
++ [Exercise 4](#exercise-4) OverviewProject & CND
++ [Exercise 5](#exercise-5) Simple mapping & georectifying
++ [Exercise 6](#exercise-6) Corpus Linguistics with AntConc
++ [Exercise 7](#exercise-7) Quick charts using RAW
 
 
 ## Exercise 1
