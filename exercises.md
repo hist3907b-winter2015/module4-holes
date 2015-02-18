@@ -4,8 +4,7 @@ There are *many* different tools and approaches you could use to visualize your 
 
 ## Exercise 1
 
-*
-
+In exercise 1, you will transform your Texan Correspondence data into a network, which you will then visualize with Gephi. The detailed instructions are [here](gephi.md).
 
 ## exercise 2
 
