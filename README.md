@@ -7,7 +7,7 @@ In this module, let us begin by looking at a couple of pieces that explore this 
 
 ## Exercises
 
-The exercises in this module will pick up where we left off, with the Texan Correspondence. You'll represent the exchange of letters as a network. We'll try to extract place names from it. We'll topic model the letters themselves. We'll explore various ways of visualizing those results.
+The [exercises](/exercises.md) in this module will pick up where we left off, with the Texan Correspondence. You'll represent the exchange of letters as a network. We'll try to extract place names from it. We'll topic model the letters themselves. We'll explore various ways of visualizing those results.
 
 ## Things you will learn in this module
 
