@@ -23,7 +23,7 @@ You will need the information you created in Module 3, after cleaning the corres
 
 Open Gephi by double-clicking its icon. Click “new project.” The middle pane of the interface window is the “Data Laboratory,” where you can interact with your network data in spreadsheet format. This is where we can import the data cleaned up in OpenRefine. 
 
-In the Data Laboratory, select “Import Spreadsheet.” Press the ellipsis “...” and locate the CSV you just saved in the download directory. Make sure that the Separator is listed as “Comma” and the “As table” is listed as “Edges table.” Press “Next,” then “Finish.”
+In the Data Laboratory, select “Import Spreadsheet.” Press the ellipsis “...” and locate the CSV you created. Make sure that the Separator is listed as “Comma” and the “As table” is listed as “Edges table.” Press “Next,” then “Finish.”
 
 Your data should load up. Click on the “overview” tab and you will be presented with a tangled network graph. Skip down to 'Navigating Gephi'.
 
@@ -37,21 +37,21 @@ James Webb,Alc6e La Branche
 David G. Burnet,Richard G. Dunlap
 _..._
 
-This file is called 'an edge list' - it's a list of connections, or edges, between the individuals. If you no longer have the file, you can find it online [here](themacroscope.org/2.0/datafiles/texas-correspondence-OpenRefine.csv). 
+This file is called 'an edge list' - it's a list of connections, or edges, between the individuals. If you no longer have the file, you can find it online [here](http://themacroscope.org/2.0/datafiles/texas-correspondence-OpenRefine.csv). 
 
 ### Installing Gephi on OS 10 Mavericks
 
 Mac users might have some trouble installing Gephi. We have found that, on Mac OS X Mavericks, Gephi does not load properly after installation. This is a Java-related issue, so you’ll need to install an earlier version of Java than the one provided. To fix this, control click (or right-click) on the Gephi package, and select “show package contents.” Click on “contents >> resources >> gephi >> etc.” Control-click (or right-click) on “gephi.conf” and open with your text editor. Find the line reading:
 
-```#jdkhome="/path/to/jdk"```
+``` #jdkhome="/path/to/jdk" ```
 
 and paste the following underneath:
 
-```jdkhome="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home```
+``` jdkhome="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home ```
 
-> Save that file. Then, go to http://support.apple.com/kb/DL1572 and install the older version of Java (Java 6). Once that is installed, Gephi should run normally.
+Save that file. Then, go to http://support.apple.com/kb/DL1572 and install the older version of Java (Java 6). Once that is installed, Gephi should run normally.
 
-> Run Gephi once it is installed. You will be presented with a welcome prompting you to open a recent file, create a new project, or load a sample file. Click “New Project” and then click the “Data Laboratory” tab on the horizontal bar at the top of the Gephi window (Fig. 7.3).
+Run Gephi once it is installed. You will be presented with a welcome prompting you to open a recent file, create a new project, or load a sample file. Click “New Project” and then click the “Data Laboratory” tab on the horizontal bar at the top of the Gephi window (Fig. 7.3).
 
 ## Navigating Gephi
 
