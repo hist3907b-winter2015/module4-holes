@@ -72,7 +72,7 @@ img {
 <div id="getting-started" class="section level1">
 <h1>Getting Started</h1>
 <p>First we need to set up our workspace. On my machine, I’ve created a folder on my desktop called ‘Beals’ to keep all of this neat and tidy.</p>
-<pre class="r"><code>setwd(&quot;C:\\Users\\Shawn Graham\\Desktop&quot;)
+<pre class="r"><code>setwd(&quot;C:\\Users\\Shawn Graham\\Desktop\\Beals&quot;)
 # give yourself as much memory as you've got
 options(java.parameters = &quot;-Xmx5120m&quot;)
 #install.packages('rJava')
@@ -80,7 +80,7 @@ library(rJava)
 ## from http://cran.r-project.org/web/packages/mallet/mallet.pdf
 #install.packages('mallet')
 library(mallet)</code></pre>
-<p>The first line sets our working directory to that new folder. The next line ups the available memory for java (since our topic modeling tool, MALLET, uses Java). Then we tell R Studio to use the rJava and the Mallet libraries. <em>If</em> you were running that code above for the first time, you would remove the # in front of the ‘install.packages’ command (use ctrl+f to find every line with ‘install’ on it, and remove the #). Copy the code above into a new R script document in R studio. Put the cursor in the first line; hit ctrl+enter to run the line through the console.</p>
+<p>The first line sets our working directory to that new folder. The next line increases the available memory for java (since our topic modeling tool, MALLET, uses Java). Then we tell R Studio to use the rJava and the Mallet libraries. <em>If</em> you were running that code above for the first time, you would remove the # in front of the ‘install.packages’ command (use ctrl+f to find every line with ‘install’ on it, and remove the #). Copy the code above into a new R script document in R studio. Put the cursor in the first line; hit ctrl+enter to run the line through the console.</p>
 </div>
 <div id="getting-the-data" class="section level1">
 <h1>Getting the data</h1>
