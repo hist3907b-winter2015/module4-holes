@@ -10,6 +10,7 @@ There are *many* different tools and approaches you could use to visualize your 
 + [Exercise 6](#exercise-6) Text Analysis with Voyant
 + [Exercise 7](#exercise-7) Quick charts using RAW
 + [Exercise 8](#exercise-8) Simple mapping & georectifying
++ [Exercise 9](#exercise-9) Text Analysis in R
 
 ## Exercise 1
 
@@ -78,3 +79,21 @@ Do you see the difference? In the latter window, the individual articles have be
 Explore the corpus, comparing terms over time, looking at keywords in context, and using RezoViz to create a graph where people, places, and organizations that appear in the same documents (and across documents) are connected. You can embed any of the tools in your blogs by using the 'save' icon. (You can find 'rezoviz' under the cogwheel icon at the top right of the panel). You can apply 'stopwords' by clicking on the cogwheel in any of the different tools, and selecting stopwords. Apply the stopwords globally, and you'll only have to do this once! What patterns do you see? What do different tools highlight? Which ones are useful? What patterns do you see that strike you as interesting? Note this all down. 
 
 *Going further* Upload materials you collected in module 2 and explore them.
+
+## exercise 9
+
+I would suggest, before you try this, that you look at the walkthrough for exercise 3, and that you become familiar with R. Then, you can try [this tutorial](http://onepager.togaware.com/TextMiningO.pdf), starting at page 3. On that page, the author tells you to create a folder called /corpus/text, and to fill it with text files you'd like to analyse. So why not grab some of the materials you collected in module 2? The problem is, where is this folder supposed to go? In R studio, find out where your working director is by typing
+
+``` getwd() ```
+
+in the console. Then, you can create the /corpus/text folder & subfolder at that location. Alternatively, you can set the working directory to wherever you like like so:
+
+``` setwd("C://my-working-folder//") ``` on a pc, or ``` setwd("~/my-working-folder/") ``` on a mac.
+
+Then, to get going, you'd need
+
+``` install.packages("tm")
+
+library(tm) ```
+
+You can then work through the entire pdf, or jump ahead to page 37 to see what the completed script would look like. Makes notes of what you find. Google any error messages you find to try to figure out a solution.
