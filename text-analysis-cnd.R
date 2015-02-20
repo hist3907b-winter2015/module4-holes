@@ -1,4 +1,4 @@
-setwd("~/Downloads/twarc-master2/research-project")
+setwd("~/path/to/your/workingfolder")
 #http://onepager.togaware.com/TextMiningO.pdf
 
 #get data
