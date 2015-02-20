@@ -95,4 +95,4 @@ Then, to get going, you'd need
 ``` install.packages("tm") ```
 ``` library(tm) ``` 
 
-You can then work through the entire pdf, or jump ahead to page 37 to see what the completed script would look like. Makes notes of what you find. Google any error messages you find to try to figure out a solution.
+You can then work through the entire pdf, or jump ahead to page 37 to see what the completed script would look like (here's [my version using the CND again](/text-analysis-cnd.R). Makes notes of what you find. Google any error messages you find to try to figure out a solution.
