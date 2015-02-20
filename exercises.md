@@ -44,6 +44,13 @@ In this way, you'll build up an entire script for topic modeling materials you f
 
 Make a note in your open notebook about your process and your observations.
 
+*Going further* If you wanted to use that script on the materials you collected in module 2, you would have to tell R to load up those materials from a directory, rather than by reading a csv file. Take a look at [my script for topic modeling the Ferguson Grand Jury documents](https://github.com/shawngraham/ferguson/blob/master/R%20script/ferguson-topicmodel.R), especially this line:
+
+```documents <- mallet.read.dir("originaldocs/1000chunks/") ```
+
+You feed it the path to your documents. If you are on a windows machine, the path would look a bit different: 
+``` "C:\\research\\originaldocs\\1000chunks\\" ```
+
 ## exercise 4
 
 In exercise 4, we're going to look at the Colonial Newspaper Database again, but this time using a tool called 'Overview'. Overview uses a different approach that the topic models we've been discussing. In essence, it looks at word frequencies and their distributions within a document, and within a corpus, to organize the documents into folders of progressively similar word use. 
@@ -53,6 +60,8 @@ You can download Overview to run on your own machine, but for our purposes, the 
 Once you're inside, click 'import from a CSV file', and upload the CND.csv (which you can download and save to your own machine from [here](https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv) <- right-click and save as. On the 'UPLOAD A CSV FILE' page click 'browse' and select the CND.csv. It will give you a preview. There are a number of options here - you can tell Overview which words to ignore, and which words to give added importance to. What words will you select? Make a note in your notebook. Then hit 'upload'.
 
 A new page appears, called 'YOUR DOCUMENT SETS'. Click on the one you just uploaded. A file folder tree showing documents of progressively greater similarity will open; on the right hand side will be the list of documents within each box (the box in question will be greyed out when you click on it, so you know where you are). You can search for words in your document, and Overview will tell you where they are; you can tag documents that you find interesting. The Overview system allows you to jump between a distant, macroscopic view and a close, document level view. Jump back and forth, see what you can find. For suggestions about how to use Overview effectively, try [their blog](http://overview.ap.org/). Make notes about what you observe in your notebook. Also, you can export your tagged document set from Overview, so that you could visualize the patterns of tagging in a spreadsheet (for instance). 
+
+*Going further* Do you see how you could upload your documents that you collected during Module 2?
 
 ## exercise 5
 
