@@ -48,7 +48,7 @@ Make a note in your open notebook about your process and your observations.
 
 ```documents <- mallet.read.dir("originaldocs/1000chunks/") ```
 
-You feed it the path to your documents. If you are on a windows machine, the path would look a bit different: 
+You feed it the path to your documents. If you are on a windows machine, the path would look a bit different, for instance: 
 ``` "C:\\research\\originaldocs\\1000chunks\\" ```
 
 ## exercise 4
