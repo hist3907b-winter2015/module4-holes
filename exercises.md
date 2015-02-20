@@ -71,6 +71,10 @@ In module 3 if you recall, we worked through how to transform XML using styleshe
 
 Go to [http://voyant-tools.org](http://voyant-tools.org). Paste the URL to the csv of the CND database:https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv . 
 
-Now, open a new browser window, and go here http://voyant-tools.org/?corpus=1423304472962.129&stopList=stop.en.taporware.txt
+Now, open a new browser window, and go here http://voyant-tools.org/?corpus=colonial-newspapers&stopList=stop.en.taporware.txt
 
 Do you see the difference? In the latter window, the individual articles have been uploaded individually, and thus are treated as individual documents in chronological order.
+
+Explore the corpus, comparing terms over time, looking at keywords in context, and using RezoViz to create a graph where people, places, and organizations that appear in the same documents (and across documents) are connected. You can embed any of the tools in your blogs by using the 'save' icon. (You can find 'rezoviz' under the cogwheel icon at the top right of the panel). You can apply 'stopwords' by clicking on the cogwheel in any of the different tools, and selecting stopwords. Apply the stopwords globally, and you'll only have to do this once! What patterns do you see? What do different tools highlight? Which ones are useful? What patterns do you see that strike you as interesting? Note this all down. 
+
+*Going further* Upload materials you collected in module 2 and explore them.
