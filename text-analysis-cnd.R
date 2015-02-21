@@ -1,6 +1,9 @@
 setwd("~/path/to/your/workingfolder")
 #http://onepager.togaware.com/TextMiningO.pdf
 
+# install.packages("tm") # uncomment this line out the first time your run this
+library(tm)
+
 #get data
 library(RCurl)
 x <- getURL("https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv")
@@ -9,8 +12,11 @@ documents <- read.csv(text = x, col.names=c("Article_ID", "Newspaper Title", "Ne
 
 myCorpus <- Corpus(VectorSource(documents$Text))
 
-install.packages("tm")
-library(tm)
+#solution to the problem of large datasets breaking TM, http://stackoverflow.com/questions/26834576/big-text-corpus-breaks-tm-map
+myCorpus <- tm_map(myCorpus,
+                   content_transformer(function(x) iconv(x, to='UTF-8-MAC', sub='byte')),
+                   mc.cores=1)
+
 
 # preparing the corpus
 toSpace <- content_transformer(function(x, pattern) gsub(pattern, " ", x))
