@@ -7,13 +7,15 @@ x <- getURL("https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND
 documents <- read.csv(text = x, col.names=c("Article_ID", "Newspaper Title", "Newspaper City", "Newspaper Province", "Newspaper Country", "Year", "Month", "Day", "Article Type", "Text", "Keywords"),
                       colClasses=rep("character", 3), sep=",", quote="")
 
+myCorpus <- Corpus(VectorSource(documents$Text))
+
 install.packages("tm")
 library(tm)
 
 # preparing the corpus
 toSpace <- content_transformer(function(x, pattern) gsub(pattern, " ", x))
 myCorpus <- tm_map(myCorpus, toSpace, "/|@|\\|")
-myCorpus <- Corpus(VectorSource(documents$Text))
+
 myCorpus <- tm_map(myCorpus, content_transformer(tolower))
 # remove punctuation
 myCorpus <- tm_map(myCorpus, removePunctuation)
