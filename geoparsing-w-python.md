@@ -16,7 +16,7 @@ In module 3, you used the NER to extract place names from a text. After some fur
 2. Export the table as a new csv - call it 'cleaned-places.csv'.
 3. Open that csv in your spreadsheet program. Copy and paste all of the columns so that they become a single list. (ie, one column of place names).
 4. Using your spreadsheet's filtering options, see if you can remove any more duplicates. (It might be useful to keep track of how many duplicates you delete, in a new file, eg -> Texas,200 <- that kind of information might be handy, as in [the mapping texts project](http://mappingtexts.stanford.edu/whitepaper/MappingTexts_WhitePaper.pdf)).
-5. Save this file (which has just a single column of unique place names) as 'placelist.txt'
+5. Save the file you were removing the duplicates from (which has just a single column of unique place names) as 'placelist.txt'
 
 Now, at this point, we're going to open up our text editor and create a new python program, following Gibbs' [tutorial](http://fredgibbs.net/tutorials/tutorial/extract-geocode-placenames-from-text-file/). His complete script is at the bottom of his post, but make sure you understand everything that is going on. Do you see the places where he has to import new python modules to make his script work? Make sure you've installed those modules. Let's call your completed script 'geoparse.py'.
 
