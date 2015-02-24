@@ -17,7 +17,7 @@ There are *many* different tools and approaches you could use to visualize your 
 ## Exercise 1
 ### Network Visualization
 
-In exercise 1, you will transform your Texan Correspondence data into a network, which you will then visualize with Gephi. The detailed instructions are [here](gephi.md).
+In exercise 1, you will transform your Texan Correspondence data into a network, which you will then visualize with Gephi. The detailed instructions are [here](gephi.md). I would recommend that you also take a long look at Scott Weingart's series, [Networks Demystified](http://scottbot.net/HIAL/?s=%20networks%20demystified). Finally, [heed our warning](http://www.themacroscope.org/?page_id=449).
 
 -----
 
@@ -102,6 +102,13 @@ Explore the corpus, comparing terms over time, looking at keywords in context, a
 
 ## exercise 7
 ### Quick Charts Using RAW
+
+A quick chart can be a handy thing to have. Google spreadsheets, Microsoft Excel, and a host of other programs can make excellent charts quickly with their wizard functions. Never hesitate to turn to these. However, they are not always good with non-numeric data. In module 3, you used the NER to extract place names from a text. After some further munging with regex, you might have ended up with a CSV that looks like [this](/texas.csv). Can we do a quick visualization of this information? One useful tool is [RAW](http://raw.densitydesign.org/). Open that in a new window. Copy the table of data of places mentioned in the Texan correspondence, and paste it into the data input box at the top of the RAW screen. 
+
+RAW takes your data, and depending on your choices, passes it into chart templates built on the d3.js code library. D3.js is a powerful library for making all sorts of charts (including interactive ones). If this sort of thing interests you, you can follow the tutorials in [Elijah Meeks' excellent new book](http://manning.com/meeks/).
+
+With your data pasted in, you can now experiment with a number of different visualizations that are all built on the d3.js code library.  Try the ‘alluvial’ diagram.  Pick place1 and place2 as your dimensions. Does anything jump out? Try place3 and place 4. Try place 1, place2, place3, and place3 in a single alluvial diagram. When we look at the original letters, we see that the writer often identified the town in which he was writing, and the town of the addressee. Why choose the third and fourth places? Perhaps it makes sense, for a given research question, to assume that with the pleasantries out of the way the writers will discuss the places important to their message. Experiment! This is one of the joys of working with data, experimenting to see how you can deform your materials to see them in a new light.
+
 
 -----
 ## exercise 8
