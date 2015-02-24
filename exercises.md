@@ -5,7 +5,7 @@ There are *many* different tools and approaches you could use to visualize your 
 
 | Texts        | Networks         | Maps  | Charts |
 | ------------- |:-------------:|:-----:|--------:|
-| [Topic Modeling Tool](#exercise-2)  |[Network analysis and visualization & Texan Correspondence](#exercise-1) |[Simple mapping & georectifying](#exercise-8) |[Quick charts using RAW](#exercise-7) |
+| [Topic Modeling Tool](#exercise-2)  |[Network analysis and visualization](#exercise-1) |[Simple mapping & georectifying](#exercise-8) |[Quick charts using RAW](#exercise-7) |
 | [Topic Modeling in R](#exercise-3)  | |[QGIS (tutorials by Fred Gibbs)](#exercise-10) | |
 | [Text Analysis with OverviewProject](#exercise-4)   | |[Geoparsing with Python](/geoparsing-w-python.md) | |
 | [Corpus Linguistics with AntConc](#exercise-5)  | | | |
@@ -15,11 +15,14 @@ There are *many* different tools and approaches you could use to visualize your 
 ----------------------
 
 ## Exercise 1
+### Network Visualization
 
 In exercise 1, you will transform your Texan Correspondence data into a network, which you will then visualize with Gephi. The detailed instructions are [here](gephi.md).
 
-## Exercise 2
+-----
 
+## Exercise 2
+### Topic Modeling Tool
 In exercise 2, you will use the 'Topic Modeling Tool' to create a simple topic model and a webpage that allows you to browse the results. 
 
 1. Download the [tool](http://topic-modeling-tool.googlecode.com/files/TopicModelingTool.jar). (The site for the tool is [https://code.google.com/p/topic-modeling-tool/](https://code.google.com/p/topic-modeling-tool/). 
@@ -35,7 +38,10 @@ Make a note in your open notebook about your process and your observations.
 
 *Going Further* Remember when we did the Canadiana API and WGET exercises in Module 2? Somewhere on your machine you have a collection of those materials. Now, you can load those materials into the Topic Modeling Tool if you have all of the txt files in a single folder. In the case of the slavery documents, that was something like 7500 items. That's a lot of drag-and-drop. You can 'flatten' the folder structure so that all of the documents in your subfolders are put into a single folder. If you are on a Mac, [try these instructions](http://osxdaily.com/2015/02/11/flatten-nested-directory-structure-command-line/). On a PC, [try this one](http://superuser.com/questions/412982/win-7-copy-all-files-from-a-complex-folder-structure-to-one-folder) (there are scripts you can use, but for the time being this is probably simplest).  Then, you can point your topic modeling tool at your flattened folder, and *boom* you have a topic model fitted to your collection.
 
+-----
+
 ## exercise 3
+### Topic Modeling in R
 
 Exercise 2 was quite a simple way to do topic modeling. There are more powerful ways, and one of these uses a program called R Studio, which is an interface for the R statistical programming language. R is a powerful language for exploring, visualizing, and manipulating all kinds of data, including textual. It is however not the most intutive of environments to work in. In which case, [RStudio](http://www.rstudio.com/products/RStudio/) is what we need. Download the free version and install it on your machine. *Note also that you need to have R [downloaded & installed first](http://cran.rstudio.com/)! Then, go to [http://tryr.codeschool.com/](http://tryr.codeschool.com/) and work your way through some of that tutorial. This tutorial mimics working right in the R console. Remember working in git bash or the terminal in Module 3? It's somewhat similar to that, but just for R. A handy pdf that explains a bit more about working within the R Studio enivornment can be had [here](http://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf). In essence, you put your code in the script window, execute each line of it, and the output appears in the console. Or in the image plots window. [This handout will guide you around the interface](http://dss.princeton.edu/training/RStudio101.pdf).
 
@@ -54,7 +60,10 @@ Make a note in your open notebook about your process and your observations.
 You feed it the path to your documents. If you are on a windows machine, the path would look a bit different, for instance: 
 ``` "C:\\research\\originaldocs\\1000chunks\\" ```
 
+----
+
 ## exercise 4
+### Text Analysis with Overview
 
 In exercise 4, we're going to look at the Colonial Newspaper Database again, but this time using a tool called 'Overview'. Overview uses a different approach that the topic models we've been discussing. In essence, it looks at word frequencies and their distributions within a document, and within a corpus, to organize the documents into folders of progressively similar word use. 
 
@@ -66,9 +75,16 @@ A new page appears, called 'YOUR DOCUMENT SETS'. Click on the one you just uploa
 
 *Going further* Do you see how you could upload your documents that you collected during Module 2?
 
+----
+
 ## exercise 5
+### Corpus Linguistics with AntConc
+
+
+-----
 
 ## exercise 6
+### Text Analysis with Voyant
 
 In module 3 if you recall, we worked through how to transform XML using stylesheets. Melodee Beals used a [stylesheet ](https://github.com/mhbeals/Colonial-Newspaper-Database/tree/master/Transformers) to transform her database into a series of individual txt files. In the exercises above, a transformer was used to make the database into a single CSV file. In this exercise, we are going to use [Voyant Tools](http://voyant-tools.org) to visualize patterns in word use in the database. Voyant can read either a CSV *or* text files. The advantage of uploading a folder of text files is that, if the files are in chronological order, Voyant's default visualizations will also be arranged in chronological order and thus we can see change over time.
 
@@ -82,7 +98,20 @@ Explore the corpus, comparing terms over time, looking at keywords in context, a
 
 *Going further* Upload materials you collected in module 2 and explore them.
 
+-----
+
+## exercise 7
+### Quick Charts Using RAW
+
+-----
+## exercise 8
+### Simple Mapping and Georectifying
+
+
+----
+
 ## exercise 9
+### Text Analysis in R
 
 I would suggest, before you try this, that you look at the walkthrough for exercise 3, and that you become familiar with R. Then, you can try [this tutorial](http://onepager.togaware.com/TextMiningO.pdf), starting at page 3. On that page, the author tells you to create a folder called /corpus/text, and to fill it with text files you'd like to analyse. So why not grab some of the materials you collected in module 2? The problem is, where is this folder supposed to go? In R studio, find out where your working director is by typing
 
@@ -100,6 +129,7 @@ Then, to get going, you'd need
 You can then work through the entire pdf, or jump ahead to page 37 to see what the completed script would look like (here's [my version using the CND again](/text-analysis-cnd.R). Makes notes of what you find. Google any error messages you find to try to figure out a solution.
 
 ## exercise 10
+### QGIS
 
 There are many excellent tutorials around concerning how to get started with GIS. Our own library, in the [MADGIC centre](https://www.library.carleton.ca/contact/service-points/maps-data-and-government-information-centre) has tremendous resources and I would encourage you to speak with the map librarians before embarking on any *serious* mapping projects. In the short term, the historian [Fred Gibbs](http://fredgibbs.net/) has an excellent series on using the open source GIS platform *QGIS* to make and map historical data.
 
