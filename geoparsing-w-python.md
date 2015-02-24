@@ -39,4 +39,11 @@ You can now import your geocoded places into many other software packages. Gibbs
 
 Remember to upload your scripts & data & obersvations to your open notebook.
 
+(Incidentally, if you wanted to load this material into [Palladio](http://palladio.designhumanities.org/) you'd need a file that looked like this:
 
+Place	Coordinates
+MEXICO	23.634501,-102.552784
+California	36.778261,-119.4179324
+Brazos	32.661389,-98.121667
+
+etc: that is, a tab between 'place' and 'coordinates' in the first line, a tab between 'mexico' and the latitude, and a comma between latitude and logitude. Best way to effect this transformation? Probably using Regex. It's unfortunate that Palladio doesn't accept straightforward place,latitude,longitude comma separated data).
