@@ -7,7 +7,7 @@ There are *many* different tools and approaches you could use to visualize your 
 | ------------- |:-------------:|:-----:|--------:|
 | [Topic Modeling Tool](#exercise-2)  |[Network analysis and visualization & Texan Correspondence](#exercise-1) |[Simple mapping & georectifying](#exercise-8) |[Quick charts using RAW](#exercise-7) |
 | [Topic Modeling in R](#exercise-3)  | |[QGIS (tutorials by Fred Gibbs)](#exercise-10) | |
-| [Text Analysis with OverviewProject](#exercise-4)   | | | |
+| [Text Analysis with OverviewProject](#exercise-4)   | |[Geoparsing with Python](/geoparsing-w-python.md) | |
 | [Corpus Linguistics with AntConc](#exercise-5)  | | | |
 | [Text Analysis with Voyant](#exercise-6)    |  | | |
 |[Text Analysis in R](#exercise-9) | | | |
