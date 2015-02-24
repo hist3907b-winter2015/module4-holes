@@ -79,7 +79,11 @@ A new page appears, called 'YOUR DOCUMENT SETS'. Click on the one you just uploa
 
 ## exercise 5
 ### Corpus Linguistics with AntConc
+Heather Froelich has put together an excellent step-by-step with using AntConc for exploring textual patterns within, and across, corpora of texts. Work your way through her tutorial: http://hfroehli.ch/workshops/getting-started-with-antconc/
 
+Can you get our example materials (from the CND ) into AntConc? [This might help you](http://www.themacroscope.org/?page_id=418) to split the csv into individual txt iles. Alternatively, do you have any materials of your own, already collected? Feed them into AntConc. What patterns do you see? What if you compare your materials against other corpora of texts?
+
+FYI, [here is a collection of corpora that you can explore](http://www.helsinki.fi/varieng/CoRD/corpora/index.html)
 
 -----
 
