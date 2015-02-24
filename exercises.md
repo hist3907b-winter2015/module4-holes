@@ -2,16 +2,17 @@
 
 There are *many* different tools and approaches you could use to visualize your data, both as a preliminary pass to spot the holes and also for more formal analysis. In which case, for this module, I would like you to select two of these exercises which seem most germane for your own research project. You are welcome to work through more of them, of course, but I want the exercises to move your own research forward.
 
-+ [Exercise 1](#exercise-1) Network analysis and visualization & Texan Correspondence
-+ [Exercise 2](#exercise-2) Topic Modeling Tool & CND
-+ [Exercise 3](#exercise-3) Topic Modeling in R & CND
-+ [Exercise 4](#exercise-4) Text Analysis with OverviewProject & CND
-+ [Exercise 5](#exercise-5) Corpus Linguistics with AntConc
-+ [Exercise 6](#exercise-6) Text Analysis with Voyant
-+ [Exercise 7](#exercise-7) Quick charts using RAW
-+ [Exercise 8](#exercise-8) Simple mapping & georectifying
-+ [Exercise 9](#exercise-9) Text Analysis in R
-+ [Exercise 10](#exercise-10) QGIS (tutorials by Fred Gibbs)
+
+| Texts        | Networks         | Maps  | Charts |
+| ------------- |:-------------:|:-----:|--------:|
+| [Topic Modeling Tool](#exercise-2)  |[Network analysis and visualization & Texan Correspondence](#exercise-1) |[Simple mapping & georectifying](#exercise-8) |[Quick charts using RAW](#exercise-7) |
+| [Topic Modeling in R](#exercise-3)  | |[QGIS (tutorials by Fred Gibbs)](#exercise-10) | |
+| [Text Analysis with OverviewProject](#exercise-4)   | | | |
+| [Corpus Linguistics with AntConc](#exercise-5)  | | | |
+| [Text Analysis with Voyant](#exercise-6)    |  | | |
+|[Text Analysis in R](#exercise-9) | | | |
+
+----------------------
 
 ## Exercise 1
 
