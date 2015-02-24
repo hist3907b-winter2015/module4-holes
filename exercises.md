@@ -11,6 +11,7 @@ There are *many* different tools and approaches you could use to visualize your 
 + [Exercise 7](#exercise-7) Quick charts using RAW
 + [Exercise 8](#exercise-8) Simple mapping & georectifying
 + [Exercise 9](#exercise-9) Text Analysis in R
++ [Exercise 10](#exercise-10) QGIS (tutorials by Fred Gibbs)
 
 ## Exercise 1
 
@@ -96,3 +97,15 @@ Then, to get going, you'd need
 ``` library(tm) ``` 
 
 You can then work through the entire pdf, or jump ahead to page 37 to see what the completed script would look like (here's [my version using the CND again](/text-analysis-cnd.R). Makes notes of what you find. Google any error messages you find to try to figure out a solution.
+
+## exercise 10
+
+There are many excellent tutorials around concerning how to get started with GIS. Our own library, in the [MADGIC centre](https://www.library.carleton.ca/contact/service-points/maps-data-and-government-information-centre) has tremendous resources and I would encourage you to speak with the map librarians before embarking on any *serious* mapping projects. In the short term, the historian [Fred Gibbs](http://fredgibbs.net/) has an excellent series on using the open source GIS platform *QGIS* to make and map historical data.
+
+For this exercise, I would recommend you try Gibbs' first tutorial,
+
+['Making a map with QGIS'](http://fredgibbs.net/tutorials/making-a-map-with-qgis/)
+
+...and then, try georectifying a historical map and adding it to your GIS:
+
+['Using historica maps with qgis'](http://fredgibbs.net/tutorials/using-historic-maps-with-qgis/)
