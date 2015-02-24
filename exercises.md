@@ -1,6 +1,6 @@
 # Introduction
 
-There are *many* different tools and approaches you could use to visualize your data, both as a preliminary pass to spot the holes and also for more formal analysis. In which case, for this module, I would like you to select two of these exercises which seem most germane for your own research project. You are welcome to work through more of them, of course, but I want the exercises to move your own research forward. Some of these I wrote; some are adapted from [The Macroscope](http://themacroscope.org); others are adapted or used holus-bolus from scholars like [Miriam Posner](http://miriamposner.com/blog/) and [Fred Gibbs](http://fredgibbs.net/).
+There are *many* different tools and approaches you could use to visualize your data, both as a preliminary pass to spot the holes and also for more formal analysis. In which case, for this module, I would like you to select two of these exercises which seem most germane for your own research project. You are welcome to work through more of them, of course, but I want the exercises to move your own research forward. Some of these I wrote; some are adapted from [The Macroscope](http://themacroscope.org); others are adapted or used holus-bolus from scholars like [Miriam Posner](http://miriamposner.com/blog/), [Fred Gibbs](http://fredgibbs.net/), and [Heather Froehlich](http://hfroehli.ch/) (and I'm grateful that they shared their materials!)
 
 
 | Texts        | Networks         | Maps  | Charts |
