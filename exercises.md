@@ -9,7 +9,7 @@
 | [Topic Modeling in R](#exercise-3)  | |[QGIS (tutorials by Fred Gibbs)](#exercise-10) | |
 | [Text Analysis with OverviewProject](#exercise-4)   | |[Geoparsing with Python](/geoparsing-w-python.md) | |
 | [Corpus Linguistics with AntConc](#exercise-5)  | |[Palladio with Posner](http://miriamposner.com/blog/getting-started-with-palladio/) | |
-| [Text Analysis with Voyant](#exercise-6)    |  | [Tool: CSV to GeoJSON](http://togeojson.com/)| |
+| [Text Analysis with Voyant](#exercise-6)    |  | | |
 |[Text Analysis in R](#exercise-9) | | | |
 
 ----------------------
@@ -117,6 +117,8 @@ With your data pasted in, you can now experiment with a number of different visu
 -----
 ## exercise 8
 ### Simple Mapping and Georectifying
+
+In this exercise, you will find a historical map online, upload a copy to a mapwarper service, georectify it, and then display the map online, via a hosted service like CartoDB, and also through a map you will build yourself using leaflet.js. Finally, we will also convert csv to geojson using http://togeojson.com/, and we'll map that as a github gist. We'll also grab a geojson file hosted on github gist and import it into cartodb. More details soon.
 
 
 ----
