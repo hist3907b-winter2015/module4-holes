@@ -9,7 +9,7 @@
 | [Topic Modeling in R](#exercise-3)  | |[QGIS (tutorials by Fred Gibbs)](#exercise-10) | |
 | [Text Analysis with OverviewProject](#exercise-4)   | |[Geoparsing with Python](/geoparsing-w-python.md) | |
 | [Corpus Linguistics with AntConc](#exercise-5)  | |[Palladio with Posner](http://miriamposner.com/blog/getting-started-with-palladio/) | |
-| [Text Analysis with Voyant](#exercise-6)    |  | | |
+| [Text Analysis with Voyant](#exercise-6)    |  | [Tool: CSV to GeoJSON](http://togeojson.com/)| |
 |[Text Analysis in R](#exercise-9) | | | |
 
 ----------------------
