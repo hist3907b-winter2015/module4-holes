@@ -127,8 +127,21 @@ Georectifying is the process of taking an image (whether it is of a historical m
 2. Right-click, save as.... grab a copy. Save it somewhere handy.
 3. Go to [Harvard World MapWarp](http://warp.worldmap.harvard.edu/) and sign up for an account. Then login.
 4. Go to the upload screen: <br> ![Imgur](http://i.imgur.com/bmNCzg6.png)
+5. Fill in as much of the metadata as you can. Then select your map from your computer, and upload it.
+6. On the next page, click 'rectify'. <br> ![Imgur](http://i.imgur.com/yULDRQR.jpg)
+7. Pan and zoom both maps until you're sure you're looking at the same area in both. Double click in a map, select the pencil icon, and click on a point (location) you are sure you can match in the other window. Then click on the other map window, select the pencil, and then click on the same point. The 'add control point' button below and between both maps will light up. Click on this to confirm that this is a control point you want. Do this at least three times; the more times you can do it, the better the map warp.
+8. Having selected your control points, click on 'warp image'.
+9. You can now click on the 'export' panel, and get the URL for your georectified image in a few different formats. If you clicked on the KML option, a google map window will open [like so](https://maps.google.com/maps?q=http://warp.worldmap.harvard.edu/maps/4152.kml&output=classic&dg=feature). For many webmapping applications, the Tiles (Google/OSM scheme): Tiles Based URL is what you want. You'll get a URL like this: ```http://warp.worldmap.harvard.edu/maps/tile/4152/z/x/y.png```   Save that info. You'll need it later.
 
+You have now georectified a map. Let's use that map as a base layer in [Palladio](http://palladio.designhumanities.org/#/)
 
+1. We need some place data for Palladio. Here's what I'm using <br> ![Imgur](http://i.imgur.com/vTEiRxh.png) Note how I've formatted this data. I'll be copying and pasting it into Palladio. (For more on how to input geographic data into Palladio, see [this tutorial](http://hdlab.stanford.edu/doc/scenario-point-to-point.pdf).
+2. Go to [Palladio](http://palladio.designhumanities.org/). Hit 'start' then 'upload spreadsheet or csv'. In the box, paste in your data.
+3. Click on 'map'. Under 'places', select 'coordinates'. Then, click 'add new layer'. In the popup, beside 'Choose one of Palladio default layers or create a new one.', select 'custom'. This is where you're going to paste it that tiles based URL from the map warper. Paste it in, but replace the ```/z/x/y``` part with ```{z}/{x}/{y}```. Click add.
+
+Congratulations! You've georectified a map, and used it as a base layer for a visualization of some point data. Here are some [notes on using a georectified map with the CartoDB service](https://gist.github.com/shawngraham/a49a9834984ae0792345).
+
+![Imgur](http://i.imgur.com/0gCjh5X.jpg)
 
 ----
 
