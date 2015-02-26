@@ -118,7 +118,16 @@ With your data pasted in, you can now experiment with a number of different visu
 ## exercise 8
 ### Simple Mapping and Georectifying
 
-In this exercise, you will find a historical map online, upload a copy to a mapwarper service, georectify it, and then display the map online, via a hosted service like CartoDB, and also through a map you will build yourself using leaflet.js. Finally, we will also convert csv to geojson using http://togeojson.com/, and we'll map that as a github gist. We'll also grab a geojson file hosted on github gist and import it into cartodb. More details soon.
+In this exercise, you will find a historical map online, upload a copy to a mapwarper service, georectify it, and then display the map online, via a hosted service like CartoDB, and also through a map you will build yourself using leaflet.js. Finally, we will also convert csv to geojson using http://togeojson.com/, and we'll map that as a github gist. We'll also grab a geojson file hosted on github gist and import it into cartodb.
+
+#### Georectifying
+Georectifying is the process of taking an image (whether it is of a historical map, chart, airphoto, or whatever) and manipulating its geometry so that it matches a geographic projection. Think of it like this: you take your handdrawn map, and use pushpins to pin down known locations on your map to a globe. As you pin, your image stretches and warps. Traditionally, this has not been an easy thing to do, if you are new to GIS. In recent years, the curve has flattened significantly. In this exercise, we'll grab an image, upload it to the Harvard Library MapWarper service, and then export it as a tileset which can be used in other mapping programs.
+
+1. Get a historical map. I like the Fire Insurance plans from the [Gatineau Valley Historical Society](http://www.gvhs.ca/research/maps-fire-insurance.html); I'm sure you can find others to suit your interests.
+2. Right-click, save as.... grab a copy. Save it somewhere handy.
+3. Go to [Harvard World MapWarp](http://warp.worldmap.harvard.edu/) and sign up for an account. Then login.
+4. Go to the upload screen: <br> ![Imgur](http://i.imgur.com/bmNCzg6.png)
+
 
 
 ----
