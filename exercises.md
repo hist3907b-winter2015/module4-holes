@@ -162,6 +162,8 @@ Click on the [example map for the quickstart guide](http://leafletjs.com/example
 
 What would an interactive map visualization of your data do to how you tell the story? Sketch out some ideas in your notebook. 
 
+(*further reading* Here's a nice piece on using [Tilemill](https://medium.com/@ArianKatsimbras/tilemill-c886a3ccba6a) by Arian Katsimbras to make beautiful maps.)
+
 ----
 
 ## exercise 9
