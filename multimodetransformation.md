@@ -72,5 +72,37 @@ We're now going to manipulate the data a bit in order to get it ready for the tr
 
 ![filter](http://electricarchaeologist.files.wordpress.com/2013/10/slide5.jpg)
 
+(I note a typo in the image above, 'a-b'. that should be, 'a-z').
 
-Save this as ‘women-organizations-2-mode.gephi’.
+Save this as ```women-organizations-2-mode.gephi```.
+
+*Pro tip*: always export your data from gephi (file >> export) in .net or .graphml or .gefx format as the .gephi format (which is your only option under file >> save as) is unstable. That is, sometimes gephi won't read .gephi files! I did say this was *beta* software).
+
+## Transforming the network
+
+At this point, you have a two mode network in gephi. You could click on the 'overview' panel and play with some of the layouts and begin to form impressions about the nature of your data. Remember though any metrics calculated at this point would be largely spurious. Let's transform this two-mode network so that we can explore how women are connected to other women via shared membership.
+
+![image](http://electricarchaeologist.files.wordpress.com/2013/10/slide6.jpg)
+
+On the multimode networks projection tab,
+1. click load attributes.
+2. in ‘attribute type’, select organization
+4. in left matrix, select ‘false – true’ (or ‘null – true’)
+5. in right matrix, select ‘true – false’. (or ‘true – null’) (do you see why this is the case? what would selecting the inverse accomplish?)
+6. select ‘remove edges’ and ‘remove nodes’.
+7. Once you hit ‘run’, organizations will be removed from your bipartite network, leaving you with a single-mode network. hit ‘run’.
+8. save as ```women-to-women-network.gephi``` *and* export as ```women-to-women.net```
+
+*NB* if your nodes data table is blank, your filter might still be active. make sure the filter box is clear. You should be left with a list of women (ie, a list of nodes where the identiers are numbers, per Peter's schema).
+
+At this point, you could re-start Gephi and reload your ‘women-organizations-2-mode.gephi’ file and re-run the multimode networks projection so that you are left with an organization to organization network. Do this, and save and export with appropriate file names.
+
+## Exploring this network
+
+Peter's data has a number of *attributes* describing it, including the membership year. So let's see what this network of women looks like in 1902.
+
++ On the Under filters, select ‘attributes – equal’ and then drag ‘1902’ to the queries box.
+11. in ‘pattern’ enter [0-9] and tick the ‘use regex’ box.
+12. click ok, click ‘filter’.
+
+You should now have a network with 188 nodes and 8728 edges, showing the women who were active in 1902.
