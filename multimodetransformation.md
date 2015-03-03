@@ -85,13 +85,13 @@ At this point, you have a two mode network in gephi. You could click on the 'ove
 ![image](http://electricarchaeologist.files.wordpress.com/2013/10/slide6.jpg)
 
 On the multimode networks projection tab,
-1. click load attributes.
-2. in ‘attribute type’, select organization
-4. in left matrix, select ‘false – true’ (or ‘null – true’)
-5. in right matrix, select ‘true – false’. (or ‘true – null’) (do you see why this is the case? what would selecting the inverse accomplish?)
-6. select ‘remove edges’ and ‘remove nodes’.
-7. Once you hit ‘run’, organizations will be removed from your bipartite network, leaving you with a single-mode network. hit ‘run’.
-8. save as ```women-to-women-network.gephi``` *and* export as ```women-to-women.net```
++ click load attributes.
++ in ‘attribute type’, select organization
++ in left matrix, select ‘false – true’ (or ‘null – true’)
++ in right matrix, select ‘true – false’. (or ‘true – null’) (do you see why this is the case? what would selecting the inverse accomplish?)
++ select ‘remove edges’ and ‘remove nodes’.
++ Once you hit ‘run’, organizations will be removed from your bipartite network, leaving you with a single-mode network. hit ‘run’.
++ save as ```women-to-women-network.gephi``` *and* export as ```women-to-women.net```
 
 *NB* if your nodes data table is blank, your filter might still be active. make sure the filter box is clear. You should be left with a list of women (ie, a list of nodes where the identiers are numbers, per Peter's schema).
 
