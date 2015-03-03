@@ -101,8 +101,38 @@ At this point, you could re-start Gephi and reload your ‘women-organizations-2
 
 Peter's data has a number of *attributes* describing it, including the membership year. So let's see what this network of women looks like in 1902.
 
-+ On the Under filters, select ‘attributes – equal’ and then drag ‘1902’ to the queries box.
-11. in ‘pattern’ enter [0-9] and tick the ‘use regex’ box.
-12. click ok, click ‘filter’.
++ Under the filters tab at the right hand side of the Gephi interface, select ‘attributes – equal’ and then drag ‘1902’ to the queries box.
++ In ‘pattern’ enter [0-9] and tick the ‘use regex’ box.
++ click ok, click ‘filter’.
 
 You should now have a network with 188 nodes and 8728 edges, showing the women who were active in 1902.
+
+Let’s learn something about this network. Under the statistics tab at the right hand side of the Gephi interface,
++ Run ‘avg. path length’ by clicking on ‘run’
++ In the pop up that opens, select ‘undirected’ (as we know nothing about directionality in this network; we simply know that two women were members of the same organization at the same time. Note also that if the same pair were members of the more than one organziation, the weight of their connection will be corresponding stronger).
++ click ok.
++ run ‘modularity’ to look for subgroups. make sure ‘randomize’ and ‘use weights’ are selected. Leave ‘resolution’ at 1.0
+
+We selected 'average path length' because one of the byproducts of this routine is 'betweeness centrality'. We're making an assumption here that a woman who has a high betweeness centrality score was in a position to affect information flow in 1902 society. Modularity looks at similar patterns of connections to cluster women who have more-or-less similar connections into groups.
+
+Let’s visualize what we’ve just learned.
+
++ On the ‘partition’ tab, over on the left hand side of the ‘overview’ screen, click on nodes, then click the green arrows beside ‘choose a partition parameter’.
++ Click on ‘choose a partition parameter’. Scroll down to modularity class. The different groups will be listed, with their colours and their % composition of the network.
++ Hit ‘apply’ to recolour your network graph.
+
+Let’s resize the nodes to show off betweeness-centrality (to figure out which woman was in the greatest position to influence flows of information in this network.) 
+
++ Click ‘ranking’. (It's on the left hand side of the interface, beside 'partition' and just below 'overview'.
++ Click ‘nodes’.
++ Click the down arrow on ‘choose a rank parameter’. Select ‘betweeness centrality’.
++ Click the red diamond. This will resize the nodes according to their ‘betweeness centrality’.
++ Click ‘apply’.
+
+Now, down at the bottom of the middle panel, you can click the large black ‘T’ to display labels. Do so. Click the black letter ‘A’ and select ‘node size’.
+
+Mrs. Mary Elliot-Murray-Kynynmound and Mrs. John Henry Wilson should now dominate your network (if you go back to the original data zip, you'll be able to find Peter's key to figure out who's who). Who were these ladies? What organizations were they members of? Who were they connected to? To the archives!
+
+Congratulations! You’ve imported historical network data into Gephi, transformed it, manipulated it, and run some analyses. Play with the settings on ‘preview’ in order to share your visualization as svg, pdf, or png.
+
+Now go back to your original gephi file, and recast it as organizations to organizations via shared members, to figure out which organizations were key in early 20th century Ontario… make appropriate notes in your open notebook.
