@@ -1,4 +1,4 @@
-Module 4 Visualizing What You've Got
+Module 4 Seeing Patterns
 =============
 
 In the previous module, we collected and cleaned vast amounts of historical data. Let's begin visualizing it. Part exploration, part reflection, and part argument, these two stages are not linear but feed into one another. Visualization is often about finding the holes. Sometimes, a quick visualization helps you understand what is missing, or what is a glitch in your method, or what is just plain mistaken in your assumptions. I once spent quite a lot of time staring at a network graph before I realized that I'd neglected to import the entire file - I was trying to interpret just a subset of it! Back to my wrangling I went, and in the process of cleaning that data, I realized there were patterns that would be better visualized as simple line plots. I visualized these - and found other errors. Back to wrangling. In the end, a combination of network graph and simple line plots allowed me to identify a story about influence and control of landholding (I was working with archaeological data).
