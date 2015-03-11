@@ -145,26 +145,7 @@ Congratulations! You've georectified a map, and used it as a base layer for a vi
 
 ![Imgur](http://i.imgur.com/0gCjh5X.jpg)
 
-### Advanced map-making in a web page
 
-The [leaflet.js](http://leafletjs.com/) library allows you to create quite nice interactive maps in a web-browser, that are also mobile friendly. Here, we'll build a map that uses our georectified map as the base layer (rather than as an image overlay). I won't go into the details, but rather will provide you enough guidance to get going. The documentation for Leaflet is quite extensive, and many other tutorials abound.
-
-1. create a new github repository for this exercise. Create a new branch called ```gh-pages```. We will be putting our html on the gh-pages branch, so that github.io can serve us up the webpage when we're done.
-2. Go to the [leaflet quick-start tutorial](http://leafletjs.com/examples/quick-start.html) and read through it carefully. In essence, you create a webpage that draws its scripts and its styling from the leaflet.js source. That way, the browser knows how to render all the geographic information you're about to give it. Do you see where leaflet is calling on geographic information? This bit: 
-
-```javascript
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/MapID/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18
-}).addTo(map); 
-```
-is calling on a background layer from the mapbox service. We can slot our mapwarper url in there! The other bits of code that create callouts, polygons, and so on, are all using decimal degrees to locate the drawn elements on top of that map. For this exercise, you could use the coordinates that we used in the Palladio exercise above.
-
-Click on the [example map for the quickstart guide](http://leafletjs.com/examples/quick-start-example.html), and then right-click > view source. Copy the source code, and create a new html document in your gh-pages branch. Paste the code in, and change it appropriately. Using our Ottawa Fireinsurance, I created [this map](http://shawngraham.github.io/exercise/leaflet-ottawa.html). Right click and view my page source to see what I changed up.  Now: you could keep the basic mapbox service base map, and render the Ottawa Fire Insurance map as an overlay [reference documentation](http://leafletjs.com/reference.html#imageoverlay). Or you could do a series of overlays, showing the change in the city over time. My favourite example of a leaflet-powered historical map visualization is the [Slave Revolt in Jamaica project](http://revolt.axismaps.com/) by Vincent Brown. 
-
-What would an interactive map visualization of your data do to how you tell the story? Sketch out some ideas in your notebook. 
-
-(*further reading* Here's a nice piece on using [Tilemill](https://medium.com/@ArianKatsimbras/tilemill-c886a3ccba6a) by Arian Katsimbras to make beautiful maps.)
 
 ----
 
